@@ -1,0 +1,15 @@
+ipykernel
+python-dotenv
+langchain
+langchain-community
+langchain_core
+langchain-openai
+langchain-groq
+langchain-ollama
+langchain-google-genai
+streamlit
+matplotlib
+scikit-learn
+seaborn
+numpy
+pandas
