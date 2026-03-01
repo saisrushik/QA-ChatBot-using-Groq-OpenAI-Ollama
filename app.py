@@ -46,8 +46,9 @@ st.title("Q&A Chatbot with OPENAI-GROQ-OLLAMA")
 
 #Sidebar for configuration
 st.sidebar.title("Configuration")
-api_key = st.sidebar.text_input("Enter API Key", type="password")
+
 llm_provider = st.sidebar.selectbox("Select LLM Provider", ["openai", "groq", "ollama", "google"])
+api_key = st.sidebar.text_input("Enter API Key", type="password")
 
 if llm_provider == "openai":
     llm = st.sidebar.selectbox("Select LLM", ["gpt-3.5-turbo", "gpt-4", "gpt-4o"])
