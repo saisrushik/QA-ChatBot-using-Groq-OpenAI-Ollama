@@ -13,3 +13,16 @@ scikit-learn
 seaborn
 numpy
 pandas
+pypdf
+sentence_transformers
+faiss-cpu
+bs4
+pymupdf
+wikipedia
+langchain-text-splitters
+chromadb
+langchain_huggingface
+langchain_chroma
+duckdb
+duckduckgo-search
+langchain_classic
